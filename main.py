@@ -105,7 +105,9 @@ def monitor_spikes():
 
         time.sleep(15)
 
-if __name__ == "__main
+if __name__ == "__main__":
+    Thread(target=run_flask).start()
+    Thread(target=monitor_spikes).start()
 import time
 import requests
 import pandas as pd
