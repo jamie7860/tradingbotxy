@@ -217,7 +217,9 @@ def monitor_spikes():
 if __name__ == "__main__":
     Thread(target=run_flask).start()
     Thread(target=monitor_spikes).start()
-__":
+if __name__ == "__main__":
+    Thread(target=run_flask).start()
+    Thread(target=monitor_spikes).start()
     Thread(target=run_flask).start()
     Thread(target=monitor_spikes).start()
 
