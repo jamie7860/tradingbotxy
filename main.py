@@ -105,7 +105,7 @@ def monitor_spikes():
 
         time.sleep(15)
 
-if __name__ == "__mainimport os
+if __name__ == "__main
 import time
 import requests
 import pandas as pd
